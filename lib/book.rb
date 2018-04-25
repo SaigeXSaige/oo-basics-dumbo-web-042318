@@ -17,4 +17,8 @@ class Book
   
   attr_writer :page_count, :genre
   attr_reader :page_count, :genre
+  
+  def turn_page
+  end
+  
 end
