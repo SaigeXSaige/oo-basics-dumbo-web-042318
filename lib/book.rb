@@ -19,6 +19,7 @@ class Book
   attr_reader :page_count, :genre
   
   def turn_page
+    puts 
   end
   
 end
