@@ -15,6 +15,6 @@ class Book
     @author
   end
   
-  attr_writer :page_count
-  attr_reader :page_count
+  attr_writer :page_count, :genre
+  attr_reader :page_count, :genre
 end
